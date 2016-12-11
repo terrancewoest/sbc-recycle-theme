@@ -1,0 +1,24 @@
+/*
+Theme Name: SBC Recycle
+Author: SBC Recycle
+Author URI: http://www.sbcrecycle.com
+Version: 1.0
+Text Domain: sbc-recycle
+*/
+
+////////////
+// Vendor //
+////////////
+@import '../../node_modules/normalize-scss/fork-versions/default/normalize';
+
+///////////////
+// Utilities //
+///////////////
+@import 'utilities/variables';
+@import 'utilities/mixins';
+
+////////////////
+// Components //
+////////////////
+@import 'components/site';
+@import 'components/coming-soon';

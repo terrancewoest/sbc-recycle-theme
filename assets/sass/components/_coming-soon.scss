@@ -1,0 +1,47 @@
+/*
+Coming Soon Styles
+ */
+
+.ComingSoon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.ComingSoon__content {
+    text-align: center;
+    padding: 30px;
+}
+
+.ComingSoon__content {
+    p {
+        line-height: 2em;
+        font-size: 18px;
+        color: #454545;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+}
+
+.ComingSoon__img {
+    max-width: 30vw;
+    min-width: 275px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.ComingSoon__background {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .15;
+    max-width: 100%;
+}

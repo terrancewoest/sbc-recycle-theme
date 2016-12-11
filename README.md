@@ -1,1 +1,1 @@
-sbc-recycle-theme
+Main Theme for SBC Recycle

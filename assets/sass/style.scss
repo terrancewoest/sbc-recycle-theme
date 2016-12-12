@@ -10,15 +10,38 @@ Text Domain: sbc-recycle
 // Vendor //
 ////////////
 @import '../../node_modules/normalize-scss/fork-versions/default/normalize';
+@import '../../node_modules/font-awesome/scss/font-awesome.scss';
+
 
 ///////////////
 // Utilities //
 ///////////////
 @import 'utilities/variables';
 @import 'utilities/mixins';
+@import 'utilities/typography';
+
 
 ////////////////
 // Components //
 ////////////////
-@import 'components/site';
 @import 'components/coming-soon';
+
+@import 'components/site';
+    @import 'components/top-bar';
+    @import 'components/header';
+
+    @import 'components/footer';
+        @import 'components/footer-widgets';
+        @import 'components/footer-credits';
+
+@import 'components/logo';
+@import 'components/nav-main';
+@import 'components/nav-credits';
+@import 'components/search-area';
+
+
+/////////////
+// Widgets //
+/////////////
+@import 'widgets/text';
+@import 'widgets/nav'

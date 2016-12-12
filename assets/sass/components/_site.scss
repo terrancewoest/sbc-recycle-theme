@@ -3,5 +3,16 @@ Global styles for the site.
  */
 
 body {
-    font-family: "proxima-nova",sans-serif;
+    height: 100%;
+    background: $color_darkest;
+    &.admin-bar {
+        height: calc(100vh - 46px);
+        @include desktop {
+            height: calc(100vh - 32px);
+        }
+    }
+}
+
+.Site {
+    background: $color_lighter;
 }

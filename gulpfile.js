@@ -8,6 +8,7 @@ var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
 var browserify = require('browserify');
 var babel = require('babelify');
+var lost = require('lost');
 
 var paths = {
     sass: './assets/sass/**/*.scss',
@@ -35,7 +36,8 @@ function compileStyles() {
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(postcss([
-            autoprefixer()
+            lost(),
+            autoprefixer(),
         ]))
         .pipe(sourcemaps.write('./'))
         .pipe(notify('Styles Processed!'))

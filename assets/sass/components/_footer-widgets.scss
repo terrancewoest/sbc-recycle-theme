@@ -1,0 +1,23 @@
+.FooterWidgets {
+    padding: $gutter*2 0;
+    background: $color_darker;
+}
+
+.FooterWidgets__wrap {
+    lost-utility: clearfix;
+    @include container;
+}
+
+.FooterWidgets__column {
+    > *:not(:last-child) {
+        margin-bottom: $gutter;
+    }
+}
+
+.FooterWidgets__1 {
+    lost-column: 1/2 3;
+}
+.FooterWidgets__2,
+.FooterWidgets__3 {
+    lost-column: 1/4 3;
+}

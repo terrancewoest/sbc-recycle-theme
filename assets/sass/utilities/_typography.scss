@@ -1,0 +1,63 @@
+/* Typography */
+
+body {
+    font-family: $font_primary;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: $font_heading;
+    font-weight: $font_heading_bold;
+    line-height: 1.3em;
+    margin: 0 0 $gutter*1.5;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 200%;
+}
+h3 {
+    font-size: 180%;
+}
+h4 {
+    font-size: 165%;
+}
+h5 {
+    font-size: 125%;
+}
+h6 {
+    font-size: 1em;
+}
+
+p {
+    margin: $gutter 0;
+}
+
+a {
+    transition: .2s all;
+    color: inherit;
+}
+
+ul {
+    padding-left: $gutter/2;
+    list-style-type: none;
+}
+
+li {
+    position: relative;
+    line-height: 2em;
+    &:before {
+        font-family: 'FontAwesome';
+        content: '\f105';
+        position: absolute;
+        left: -$gutter/2;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+    }
+}

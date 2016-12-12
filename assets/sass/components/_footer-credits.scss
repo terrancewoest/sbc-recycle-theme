@@ -1,0 +1,19 @@
+.FooterCredits {
+    background: $color_darkest;
+    font-size: 14px;
+    color: $color_light;
+    line-height: $gutter*1.5;
+    height: $gutter*1.5;
+}
+
+.FooterCredits__wrap {
+    @include container;
+}
+
+.FooterCredits__column {
+    lost-column: 1/2;
+}
+
+.FooterCredits__copyright {
+    margin: 0;
+}

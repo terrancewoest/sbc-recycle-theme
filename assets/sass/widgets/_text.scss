@@ -1,0 +1,20 @@
+.Widget.widget_text {
+    &.Widget--top-bar {
+        line-height: $gutter;
+        display: inline-block;
+        &:not(:last-child) {
+            padding-right: $gutter/4;
+            margin-right: $gutter/4;
+            border-right: 2px solid rgba($color_lightest, .2);
+        }
+
+        .Widget__title {
+            display: none;
+        }
+
+        strong {
+            font-weight: $font_primary_bold;
+        }
+    }
+
+}

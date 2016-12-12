@@ -1,0 +1,28 @@
+.Nav.Nav--credits {
+
+    margin: 0;
+    padding: 0;
+    text-align: right;
+
+    li {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+
+        &:not(:last-child) {
+            margin-right: $gutter/4;
+
+            &:after {
+                content: '/';
+                font-size: 18px;
+                vertical-align: middle;
+                margin-left: $gutter/4 + 4px;
+            }
+        }
+
+        &:before {
+            display: none;
+        }
+    }
+
+}

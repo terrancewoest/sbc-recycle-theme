@@ -10,7 +10,7 @@
 <body>
 <div class="ComingSoon">
     <div class="ComingSoon__content">
-        <img class="ComingSoon__img" src="<?php echo get_template_directory_uri(); ?>/assets/images/sbc-logo-dark-1000x182.png"/>
+        <img class="ComingSoon__img" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-dark.png"/>
         <p>We are currently in the process of updating our site...
         <br><strong>Vist back soon!</strong></p>
     </div>

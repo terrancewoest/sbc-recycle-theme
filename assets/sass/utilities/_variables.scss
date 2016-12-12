@@ -1,0 +1,67 @@
+/////////////
+// Spacing //
+/////////////
+$gutter: 30px;
+@lost-gutter: 30px;
+$header_height: 80px;
+
+
+////////////
+// Colors //
+////////////
+$color_primary: #92D96E;
+$color_primary_light: #DDEED3;
+$color_primary_dark: #519828;
+
+$color_highlight: #E15F1F;
+
+$color_light: #DDDDDD;
+$color_lighter: #F5F5F5;
+$color_lightest: #FFFFFF;
+
+$color_dark: #989898;
+$color_darker: #454545;
+$color_darkest: #323232;
+
+
+///////////
+// Fonts //
+///////////
+$font_primary: "proxima-nova",sans-serif;
+$font_primary_light: 300;
+$font_primary_normal: 400;
+$font_primary_bold: 700;
+
+$font_heading: "museo-slab",serif;
+$font_heading_bold: 700;
+
+
+//////////////////
+// Break Points //
+//////////////////
+$break_small: 350px;
+$break_tablet: 786px;
+$break_desktop: 992px;
+$break_large_desktop: 1200px;
+
+
+////////////////
+// Containers //
+////////////////
+$container_mobile: 100%;
+$container_small_mobile: $container_mobile;
+$container_tablet: 768px;
+$container_desktop: 992px;
+$container_large_desktop: 1200px;
+
+$container_padding_mobile: 5%;
+$container_padding_small_mobile: $container_padding_mobile;
+$container_padding_tablet: $gutter;
+$container_padding_desktop: $container_padding_tablet;
+$container_padding_large_desktop: $container_padding_tablet;
+
+
+///////////
+// Paths //
+///////////
+$img_path: '/wp-content/themes/sbc-recycle/assets/images';

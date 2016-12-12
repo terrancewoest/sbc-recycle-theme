@@ -4,7 +4,7 @@
     <title>SBC Recycle</title>
     <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
 
 <?php do_action('sbc_before_site'); ?>
 <!-- Begin SBC Site -->

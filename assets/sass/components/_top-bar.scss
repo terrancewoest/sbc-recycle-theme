@@ -1,0 +1,55 @@
+.TopBar {
+    lost-utility: clearfix;
+    background: $color_primary;
+    color: $color_lightest;
+    font-size: 14px;
+}
+
+.TopBar__wrap {
+    @include container;
+    a {
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.TopBar__left,
+.TopBar__right {
+    height: $gutter;
+    lost-align: center;
+
+    .content {
+        width: 100%;
+    }
+}
+
+.TopBar__left {
+    font-weight: $font_primary_light;
+    lost-column: 5/6 2 0;
+    text-align: left;
+}
+
+.TopBar__right {
+    font-weight: $font_primary_bold;
+    lost-column: 1/6 2 0;
+    text-align: right;
+}
+
+.TopBar__nav {
+    display: block;
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: inline-block;
+        margin: 0;
+        &:before {
+            display: none;
+        }
+        &:not(:last-child) {
+            margin-right: $gutter/2;
+        }
+    }
+}

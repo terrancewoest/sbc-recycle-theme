@@ -1,0 +1,20 @@
+.Content {
+    padding-top: $gutter*2;
+    padding-bottom: $gutter*2;
+    position: relative;
+}
+
+.Content__wrap {
+    @include container;
+    position: relative;
+    z-index: 10;
+    lost-utility: clearfix;
+}
+
+.Entries {
+    lost-column: 5/7 2;
+}
+
+.Sidebar {
+    lost-column: 2/7 2;
+}

@@ -1,0 +1,21 @@
+.Sidebar {
+
+    text-align: center;
+    .Widget {
+        background: $color_lightest;
+        padding: $gutter;
+    }
+
+    .Widget__title {
+        font-size: 18px;
+        margin-bottom: $gutter;
+    }
+
+    a {
+        color: $color-highlight;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

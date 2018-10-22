@@ -35,7 +35,8 @@ h6 {
 }
 
 p {
-    margin: $gutter 0;
+    margin: 0;
+    margin-bottom: $gutter;
 }
 
 a {

@@ -7,4 +7,6 @@
  */
 function Sbc_StructureRoutes() {
 
+    $page_type = sbc_page_type();
+
 }

@@ -5,6 +5,9 @@ Global styles for the site.
 body {
     height: 100%;
     background: $color_darkest;
+    * {
+        box-sizing: border-box;
+    }
     &.admin-bar {
         height: calc(100vh - 46px);
         @include desktop {

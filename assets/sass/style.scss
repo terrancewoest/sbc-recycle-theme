@@ -30,6 +30,11 @@ Text Domain: sbc-recycle
     @import 'components/top-bar';
     @import 'components/header';
 
+    @import 'components/content';
+        @import 'components/entry';
+
+        @import 'components/sidebar';
+
     @import 'components/footer';
         @import 'components/footer-widgets';
         @import 'components/footer-credits';
@@ -38,6 +43,7 @@ Text Domain: sbc-recycle
 @import 'components/nav-main';
 @import 'components/nav-credits';
 @import 'components/search-area';
+@import 'components/trees';
 
 
 /////////////

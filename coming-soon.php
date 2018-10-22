@@ -14,8 +14,8 @@
         <p>We are currently in the process of updating our site...
         <br><strong>Vist back soon!</strong></p>
     </div>
-    <img class="ComingSoon__background ComingSonn__tree-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/trees-01-2000x.png"/>
-    <img class="ComingSoon__background ComingSonn__tree-2" src="<?php echo get_template_directory_uri(); ?>/assets/images/trees-02-2000x.png"/>
+    <img class="ComingSoon__background ComingSonn__tree-1" src="<?php echo get_template_directory_uri(); ?>/assets/images/trees1.png"/>
+    <img class="ComingSoon__background ComingSonn__tree-2" src="<?php echo get_template_directory_uri(); ?>/assets/images/trees2.png"/>
 </div>
 
 

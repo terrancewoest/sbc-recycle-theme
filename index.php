@@ -22,13 +22,13 @@
 
         <!-- Begin Content -->
         <main class="Content">
-            <p>Here is the content.</p>
-            <?php
-            do_action('sbc_before_content_inner');
-            do_action('sbc_content_inner');
-            do_action('sbc_after_content_inner');
-            ?>
+            <?php do_action('sbc_before_content_wrap'); ?>
+            <div class="Content__wrap">
 
+                <?php do_action('sbc_content'); ?>
+
+            </div>
+            <?php do_action('sbc_after_content_wrap'); ?>
         </main>
         <!-- End Content -->
 

@@ -16,6 +16,17 @@ function sbc_register_widget_areas() {
         'after_title'   => '</h4>',
     ]);
 
+    // Main Sidebar
+    register_sidebar([
+        'name'          => 'Sidebar',
+        'id'            => 'sidebar',
+        'description'   => 'This is the main sidebar.',
+        'before_widget' => '<div class="Widget Widget--sidebar %2$s">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h4 class="Widget__title">',
+        'after_title'   => '</h4>',
+    ]);
+
     // Footer Widget 1
     register_sidebar([
         'name'          => 'Footer Widget Area 1',

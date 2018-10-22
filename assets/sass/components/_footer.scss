@@ -3,6 +3,8 @@
     font-size: 16px;
     line-height: 1.8em;
     font-weight: $font_primary_light;
+    position: relative;
+    z-index: 20;
 
     .Widget__title {
         font-size: 20px;

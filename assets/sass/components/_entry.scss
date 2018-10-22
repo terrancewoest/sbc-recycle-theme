@@ -1,0 +1,26 @@
+.Entry {
+    background: $color_lightest;
+
+    > * {
+        padding: $gutter;
+        > *:not(:last-child) {
+            margin-bottom: $gutter;
+        }
+        > *:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.Entry__header {
+    padding-bottom: 0;
+}
+
+.Entry__footer {
+    padding-top: 0;
+}
+
+.Entry__title {
+    font-size: 36px;
+    margin-top: 0px;
+}
